@@ -1,0 +1,8 @@
+@mixin titre2 ($color, $background_color, $border_color, $deg){
+    color: $color;
+    border: solid $border_color 1px;
+    background-color: $background_color;
+    transform: rotate($deg);
+    font-size: large;
+    width: 150px;
+}

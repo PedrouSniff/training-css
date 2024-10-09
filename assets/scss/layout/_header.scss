@@ -1,0 +1,10 @@
+@use "../abstract/variable" as v;
+
+header{
+    background-color: v.$couleur-principale;
+}
+
+.menu_dropdown .fa-bars{
+    display:none;
+}
+

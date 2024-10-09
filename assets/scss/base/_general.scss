@@ -1,0 +1,12 @@
+@use "../abstract/variable" as v;
+
+body{
+    font-family: "quicksand";
+}
+
+a,h1,h2,i{
+    color:v.$couleur-titre-lien;
+}
+
+
+

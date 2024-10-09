@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "quicksand";
+  src: url("../fonts/Quicksand-Regular.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "quicksand";
+}
+
+a, h1, h2, i {
+  color: #6A7FDB;
+}
+
+header {
+  background-color: #153131;
+}
+
+.menu_dropdown .fa-bars {
+  display: none;
+}
+
+main {
+  padding: 1rem;
+}
+
+.patate {
+  color: rgb(122, 92, 31);
+  border: solid rgb(30, 83, 30) 1px;
+  background-color: rgb(30, 83, 30);
+  transform: rotate(360deg);
+  font-size: large;
+  width: 150px;
+}
+
+.carrote {
+  color: orange;
+  border: solid rgb(30, 83, 30) 1px;
+  background-color: rgb(248, 24, 229);
+  transform: rotate(180deg);
+  font-size: large;
+  width: 150px;
+}
+
+.betterave {
+  color: rgb(43, 5, 27);
+  border: solid rgb(30, 83, 30) 1px;
+  background-color: rgb(53, 21, 6);
+  transform: rotate(360deg);
+  font-size: large;
+  width: 150px;
+}
+
+.oignon {
+  color: rgb(255, 255, 255);
+  border: solid rgb(30, 83, 30) 1px;
+  background-color: rgb(100, 4, 4);
+  transform: rotate(180deg);
+  font-size: large;
+  width: 150px;
+}
+
+footer {
+  background-color: #6A7FDB;
+}
+
+@media screen and (max-width: 700px) {
+  .menu_dropdown .fa-bars {
+    display: block;
+  }
+  .menu_dropdown ul {
+    display: none;
+  }
+  .menu_dropdown:hover ul {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

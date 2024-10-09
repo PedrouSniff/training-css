@@ -1,0 +1,7 @@
+@use "../abstract/variable" as v;
+
+footer{
+    background-color: v.$couleur-titre-lien;
+}
+
+// COUCOU
